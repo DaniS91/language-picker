@@ -3,8 +3,11 @@
 }
 
 body {
+  margin: 10vh;
   background-color: black;
   background-image: radial-gradient(
     rgba(0, 150, 0, 0.75), black 120%);
   height: 100vh;
+  font-family: 'IBM Plex Mono', monospace;
+  color: white;
 }
