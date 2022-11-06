@@ -11,3 +11,10 @@ body {
   font-family: 'IBM Plex Mono', monospace;
   color: white;
 }
+
+button {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  margin: 10px;
+  padding: 3px;
+}
