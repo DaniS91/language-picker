@@ -1,8 +1,5 @@
-//business logic
 function languagePicker(event) {
   event.preventDefault();
-  //define input values
-
   const input1 = document.querySelector("input[name='question1']:checked").value;
   const input2 = document.querySelector("input[name='question2']:checked").value;
   const input3 = document.querySelector("input[name='question3']:checked").value;
@@ -20,11 +17,7 @@ function languagePicker(event) {
   } else {
     document.querySelector("div#result4").removeAttribute("class");
   }
-  
 };
-
-//user interface logic
-
 window.addEventListener("load", function() {
   const form = document.getElementById("quiz");
   form.addEventListener("submit", languagePicker)
