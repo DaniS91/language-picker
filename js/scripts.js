@@ -6,7 +6,10 @@ function languagePicker(event) {
   const input2 = document.querySelector("input[name='question2']:checked").value;
   const input3 = document.querySelector("input[name='question3']:checked").value;
   const input4 = document.querySelector("input[name='question5']:checked").value;
-  
+  console.log(input1);
+  console.log(input2);
+  console.log(input3);
+  console.log(input4);
   if (input1 === "multi" && input4 === "generalist") {
     document.querySelector("div#result3").removeAttribute("class");
   } else if (input2 === "low" || input2 === "generalist") {
@@ -23,5 +26,4 @@ function languagePicker(event) {
 window.addEventListener("load", function() {
   const form = document.getElementById("quiz");
   form.addEventListener("submit", languagePicker)
-
 })
