@@ -3,14 +3,17 @@
 }
 
 body {
-  margin: 10vh;
   background-color: black;
   background-image: radial-gradient(
-    rgba(0, 150, 0, 0.75), black 120%);
+    rgba(0, 150, 0, 0.75), black 120%
+  );
   height: 100%;
   font-family: 'IBM Plex Mono', monospace;
   color: white;
+  text-shadow: 0 0 3px #C8C8C8;
 }
+
+
 
 button {
   font-family: 'IBM Plex Mono', monospace;
@@ -24,4 +27,12 @@ button {
 
 .container {
   padding: 10px;
+}
+
+.header {
+  background-image: url("../img/cyber3");
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
